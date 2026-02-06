@@ -94,35 +94,3 @@
         </div> --}}
     </div>
 </section>
-
-<style>
-    .feature-card {
-        text-align: center;
-        transition: all 0.3s ease;
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        backdrop-filter: blur(6px);
-        border-color: #ff9800;
-    }
-
-    .feature-card:hover {
-        transform: translateY(-8px);
-        background: #ff6600;
-
-    }
-
-    .feature-card .icon {
-        font-size: 36px;
-        margin-bottom: 15px;
-    }
-
-    .feature-card h5 {
-        font-weight: 600;
-        margin-bottom: 10px;
-    }
-
-    .feature-card p {
-        font-size: 0.95rem;
-        opacity: 0.8;
-        margin-bottom: 0;
-    }
-</style>

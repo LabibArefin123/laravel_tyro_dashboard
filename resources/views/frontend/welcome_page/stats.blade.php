@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ asset('css/frontend/welcome_page/custom_stat.css') }}">
+
 <div class="container mt-5">
     <div class="row g-4 text-center">
 

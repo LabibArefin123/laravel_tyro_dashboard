@@ -4,6 +4,8 @@
 <link rel="stylesheet" href="{{ asset('css/frontend/welcome_page/custom_navbar.css') }}">
 <link rel="stylesheet" href="{{ asset('css/frontend/welcome_page/custom_hero.css') }}">
 <link rel="stylesheet" href="{{ asset('css/frontend/welcome_page/custom_get_started.css') }}">
+<link rel="stylesheet" href="{{ asset('css/frontend/welcome_page/custom_stat.css') }}">
+<link rel="stylesheet" href="{{ asset('css/frontend/welcome_page/custom_feature.css') }}">
 
 @section('content')
     @include('frontend.welcome_page.header')
