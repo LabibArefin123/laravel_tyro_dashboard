@@ -22,11 +22,11 @@
                     <div class="step-number">2</div>
                     <h4 class="step-title">Run the Installer</h4>
                     <pre class="step-command">php artisan tyro:install</pre>
-                    <p class="step-desc mt-2">
-                        Wraps <code>install:api</code> + <code>migrate</code> + <code>seed</code> +
-                        <code>prepare-user-model</code>
-                    </p>
                 </div>
+                <p class="step-desc mt-2">
+                    Wraps <code>install:api</code> + <code>migrate</code> + <code>seed</code> +
+                    <code>prepare-user-model</code>
+                </p>
             </div>
 
         </div>
