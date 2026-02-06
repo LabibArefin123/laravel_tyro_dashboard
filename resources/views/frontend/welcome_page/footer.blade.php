@@ -11,7 +11,7 @@
 
             <!-- Right -->
             <div class="text-light opacity-75 small">
-                Built with ❤️ by
+                Design and Developed by
                 <a href="https://labib.work" target="_blank" class="text-warning text-decoration-none fw-semibold">
                     Labib Arefin
                 </a>

@@ -1,0 +1,80 @@
+.custom-banner {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    padding: 80px 0;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(4px);
+    z-index: 0;
+}
+
+.custom-banner .container {
+    position: relative;
+    z-index: 1;
+}
+
+.custom-banner .tech-stack {
+    font-size: 16px;
+    opacity: 0.85;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.custom-banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.custom-banner .highlight {
+    color: #ff9800;
+}
+
+.custom-banner .banner-description {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.85;
+}
+
+.custom-banner .composer-command {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 12px 18px;
+    display: inline-block;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.custom-banner .btn-tyro {
+    background: #ff9800;
+    color: #000;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.custom-banner .btn-tyro:hover {
+    background: #ffc107;
+    color: #000;
+}
+
+.custom-banner .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.custom-banner .btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
