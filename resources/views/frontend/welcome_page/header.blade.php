@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark py-3">
     <div class="container">
         <a class="navbar-brand fw-bold fs-4" href="/">
-            🚀 TYRO
+            TYRO Template Project
         </a>
 
         <div class="ms-auto">

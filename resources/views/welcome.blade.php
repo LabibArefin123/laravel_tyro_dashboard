@@ -8,6 +8,10 @@
 
     @include('frontend.welcome_page.hero')
 
+    @include('frontend.welcome_page.stats')
+
+    @include('frontend.welcome_page.features')
+
     @include('frontend.welcome_page.footer')
 
 @endsection
