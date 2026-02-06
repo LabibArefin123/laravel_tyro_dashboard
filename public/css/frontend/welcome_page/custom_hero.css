@@ -1,4 +1,4 @@
-.custom-banner {
+.merged-hero {
     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     padding: 80px 0;
     font-family: "Poppins", sans-serif;
@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-.custom-banner::before {
+.merged-hero::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -15,35 +15,35 @@
     z-index: 0;
 }
 
-.custom-banner .container {
+.merged-hero .container {
     position: relative;
     z-index: 1;
 }
 
-.custom-banner .tech-stack {
+.merged-hero .tech-stack {
     font-size: 16px;
     opacity: 0.85;
     letter-spacing: 1px;
     font-weight: 500;
 }
 
-.custom-banner h1 {
+.merged-hero h1 {
     font-size: 3rem;
     font-weight: 700;
 }
 
-.custom-banner .highlight {
+.merged-hero .highlight {
     color: #ff9800;
 }
 
-.custom-banner .banner-description {
+.merged-hero .banner-description {
     font-size: 18px;
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
     opacity: 0.85;
 }
 
-.custom-banner .composer-command {
+.merged-hero .composer-command {
     background-color: rgba(255, 255, 255, 0.08);
     padding: 12px 18px;
     display: inline-block;
@@ -52,9 +52,10 @@
     font-size: 16px;
     color: #fff;
     margin-bottom: 20px;
+    overflow-x: auto;
 }
 
-.custom-banner .btn-tyro {
+.merged-hero .btn-tyro {
     background: #ff9800;
     color: #000;
     font-weight: 600;
@@ -63,18 +64,43 @@
     transition: all 0.3s ease;
 }
 
-.custom-banner .btn-tyro:hover {
+.merged-hero .btn-tyro:hover {
     background: #ffc107;
     color: #000;
 }
 
-.custom-banner .btn-outline-light {
+.merged-hero .btn-outline-light {
     border-color: #fff;
     color: #fff;
     transition: all 0.3s ease;
 }
 
-.custom-banner .btn-outline-light:hover {
+.merged-hero .btn-outline-light:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: #fff;
+}
+
+/* Feature Cards */
+.feature-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px 20px;
+    border-radius: 15px;
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.feature-card h5 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.feature-card p {
+    font-size: 15px;
+    opacity: 0.8;
 }

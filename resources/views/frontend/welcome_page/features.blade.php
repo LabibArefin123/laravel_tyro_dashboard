@@ -81,7 +81,7 @@
             </div>
         </div>
 
-        <!-- Feature 7 -->
+        {{-- <!-- Feature 7 -->
         <div class="col-md-12 col-lg-6 mx-auto">
             <div class="feature-card h-100">
                 <div class="icon">🛡️</div>
@@ -91,25 +91,23 @@
                     and audit-ready architecture from day one.
                 </p>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>
 
 <style>
     .feature-card {
-        background: rgba(255, 255, 255, 0.08);
-        border-radius: 18px;
-        padding: 28px;
         text-align: center;
         transition: all 0.3s ease;
         border: 1px solid rgba(255, 255, 255, 0.12);
         backdrop-filter: blur(6px);
+        border-color: #ff9800;
     }
 
     .feature-card:hover {
         transform: translateY(-8px);
-        background: rgba(255, 255, 255, 0.14);
-        border-color: #ff9800;
+        background: #ff6600;
+
     }
 
     .feature-card .icon {

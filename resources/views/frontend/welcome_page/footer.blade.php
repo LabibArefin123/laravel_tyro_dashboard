@@ -3,20 +3,20 @@
         <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
 
             <!-- Left -->
-            <div class="text-light opacity-75 small">
+            <div class="">
                 © {{ date('Y') }} Tyro Dashboard
                 <span class="mx-1">•</span>
                 Powered by Laravel & Tyro
             </div>
 
             <!-- Right -->
-            <div class="text-light opacity-75 small">
+            <div class="">
                 Design and Developed by
-                <a href="https://labib.work" target="_blank" class="text-warning text-decoration-none fw-semibold">
+                <a href="https://labib.work" target="_blank" class="text-decoration-none fw-semibold">
                     Labib Arefin
                 </a>
                 <span class="mx-2">|</span>
-                <a href="mailto:mdlabibarefin@gmail.com" class="text-light text-decoration-none">
+                <a href="mailto:mdlabibarefin@gmail.com" class="text-decoration-none">
                     mdlabibarefin@gmail.com
                 </a>
             </div>
